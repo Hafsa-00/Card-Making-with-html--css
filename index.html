@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card making</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 2px 2px 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+        }
+
+        .card-image {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-tags {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px 0;
+        }
+
+        .tag {
+            background-color: #e0e0e0;
+            border-radius: 20px;
+            padding: 5px 10px;
+            font-size: 12px;
+        }
+
+        .card-title {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .card-text {
+            font-size: 14px;
+            color: #666;
+            padding: 0 20px;
+        }
+
+        .card-button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin: 20px 0;
+            cursor: pointer;
+        }
+
+        .card-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+
+        <img class="card-image" src="image code.png" alt="person coding ">
+        <div class="card-tags">
+            <span class="tag">Home</span>
+            <span class="tag">course</span>
+        </div>
+        <h2 class="card-title">Web developer</h2>
+        <p class="card-text"> is the work involved in developing a website for the Internet
+            or an intranet Web development can range from developing a simple
+            single static page of plain textto complex web applications,
+            electronic businesses, and social network services.
+        </p>
+        <button class="card-button"> Read more</button>
+    </div>
+</body>
+
+</html>
